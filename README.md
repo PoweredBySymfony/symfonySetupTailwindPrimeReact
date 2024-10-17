@@ -1,14 +1,15 @@
-# Symfony Setup with Tailwind CSS (SymfonySetupTailwindBasic)
+# Symfony Setup with Tailwind CSS and React (SymfonySetupTailwindBasic)
 
 ## Description
 
-SymfonySetupTailwindBasic est un projet de base permettant de démarrer rapidement un nouveau projet Symfony avec Tailwind CSS déjà intégré. Ce template vise à réduire le temps de configuration initiale en offrant une structure prête à l'emploi, facilitant ainsi le développement rapide d'applications web modernes.
+SymfonySetupTailwindBasic est un projet de base permettant de démarrer rapidement un nouveau projet Symfony avec Tailwind CSS et React déjà intégrés. Ce template vise à réduire le temps de configuration initiale en offrant une structure prête à l'emploi, facilitant ainsi le développement rapide d'applications web modernes.
 
 ## Fonctionnalités
 
 - **Symfony** : Framework PHP pour construire des applications web robustes et évolutives.
 - **Tailwind CSS** : Un framework CSS utilitaire pour un développement rapide de styles et une personnalisation facile.
-- **Préconfiguré** : Le projet inclut une configuration de base pour commencer directement sans avoir à configurer Symfony ou Tailwind manuellement.
+- **React** : Bibliothèque JavaScript pour construire des interfaces utilisateur dynamiques.
+- **Préconfiguré** : Le projet inclut une configuration de base pour commencer directement sans avoir à configurer Symfony, Tailwind ou React manuellement.
 
 ## Utilisation
 
@@ -28,6 +29,11 @@ SymfonySetupTailwindBasic est un projet de base permettant de démarrer rapideme
     yarn dev
     ```
 
+5. **Lancer le serveur de développement React** : Si nécessaire, vous pouvez également démarrer le serveur de développement React :
+    ```bash
+    yarn start
+    ```
+
 ## Prérequis
 
 - PHP 8.1 ou supérieur
@@ -37,4 +43,3 @@ SymfonySetupTailwindBasic est un projet de base permettant de démarrer rapideme
 ## Contribution
 
 Ce template est conçu pour évoluer avec les besoins du projet. N'hésitez pas à contribuer en créant des issues ou en soumettant des pull requests pour ajouter des fonctionnalités ou améliorer la configuration existante.
-
