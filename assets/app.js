@@ -7,6 +7,17 @@ import './bootstrap.js';
  * (and its CSS file) in your base layout (base.html.twig).
  */
 
+// _app.js
+import { PrimeReactProvider } from 'primereact/api';
+
+export default function MyApp({ Component, pageProps }) {
+    return (
+        <PrimeReactProvider>
+            <Component {...pageProps} />
+        </PrimeReactProvider>
+    );
+}
+
 // any CSS you import will output into a single css file (app.css in this case)
 import './styles/app.css';
 

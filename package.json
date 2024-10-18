@@ -29,6 +29,10 @@
         "build": "encore production --progress"
     },
     "dependencies": {
-        "@babel/preset-react": "^7.9.0"
+        "@babel/preset-react": "^7.9.0",
+        "final-form": "^4.20.10",
+        "primeicons": "^7.0.0",
+        "primereact": "^10.8.4",
+        "react-final-form": "^6.5.9"
     }
 }
